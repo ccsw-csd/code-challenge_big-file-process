@@ -46,10 +46,10 @@ El algoritmo deberá leer todos esos datos y extraer la siguiente información:
 
 En el ejemplo de arriba, los resultados deberían ser:
 
-La mujer mas repetida esta en 'Barcelona', se llama 'Candela' y aparece '5' veces
-La mujer menos repetida esta en 'Melilla', se llama 'Gianna' y aparece '4' veces
-El hombre mas repetido esta en 'Granada', se llama 'Jose' y aparece '9' veces
-El hombre menos repetido esta en 'Zaragoza', se llama 'Jose' y aparece '5' veces
+- La mujer mas repetida esta en 'Barcelona', se llama 'Candela' y aparece '5' veces
+- La mujer menos repetida esta en 'Melilla', se llama 'Gianna' y aparece '4' veces
+- El hombre mas repetido esta en 'Granada', se llama 'Jose' y aparece '9' veces
+- El hombre menos repetido esta en 'Zaragoza', se llama 'Jose' y aparece '5' veces
 
 
 
