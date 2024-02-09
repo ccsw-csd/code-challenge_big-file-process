@@ -12,7 +12,7 @@ Se trata de un 'code challenge' para obtener el algoritmo Java que sea capaz de 
 
 ## Requisitos
 
-### Funcionales
+### Requisitos Funcionales
 
 El algoritmo deberá leer la información de un fichero de texto plano y procesarla para obtener unos resultados que más adelante comentaremos.
 
@@ -30,9 +30,9 @@ Huelva;Hombre;Rocco;Parra;Natales;7
 València;Mujer;Eluney;Quesada;Molleda;5
 ```
 
-- El primer dato es el nombre de la provincia.
-- El segundo dato es el sexo de la persona. Posibles valores -> Mujer / Hombre
-- El tercer dato es el nombre de la persona.
+- El primer dato es el nombre de la provincia. En total hay 52 diferentes valores.
+- El segundo dato es el sexo de la persona. Posibles valores -> Mujer / Hombre.
+- El tercer dato es el nombre de la persona. En total hay 229 diferentes nombres.
 - El cuarto dato es el primer apellido de la persona.
 - El quinto dato es el segundo apellido de la persona.
 - El sexto dato es el número de personas con ese nombre y apellidos dentro de la provincia. Será un número de una cifra, de 1-9 ambos incluídos.
@@ -53,7 +53,7 @@ En el ejemplo de arriba, los resultados deberían ser:
 
 
 
-### Técnicos
+### Requisitos Técnicos
 
 Todo el código del algoritmo debe estar incluido en un único fichero llamado "BigFileProcessCodeChallenge.java" y se debe respetar el método main del archivo original.
 
@@ -71,6 +71,14 @@ java -jar generateData.jar
 ```
 
 Esto generará un fichero "data.txt" de ejemplo, con unas 250 mil líneas y con un tamaño de 100 Mb. Ojo, que necesitas espacio en el disco para esas 100 Mb.
+
+Si necesitas un juego de datos más grande puedes utilizar el comando
+
+```
+java -jar generateBigData.jar
+```
+
+Esto generará un fichero "data.txt" de ejemplo, con unas 40 millones líneas y con un tamaño de 1,5 Gb. **Ojo, que necesitas espacio en el disco para esas 1,5 Gb**.
 
 
 Para ejecutar el algoritmo, se acompaña en este repositorio de un proyecto maven que permite la ejecución de la clase principal. Simplemente modifica la clase java del ejemplo de "línea base" o coge como base alguna de las soluciones propuestas y mejora el algoritmo.
