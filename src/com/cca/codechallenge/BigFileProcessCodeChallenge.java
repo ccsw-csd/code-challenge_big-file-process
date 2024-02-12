@@ -22,11 +22,11 @@ public class BigFileProcessCodeChallenge {
         if (args.length == 1)
             filename = args[0];
 
-        long start = System.currentTimeMillis();
+        long start = System.nanoTime();
         new BigFileProcessCodeChallenge().init(filename);
-        long end = System.currentTimeMillis();
+        long end = System.nanoTime();
 
-        System.out.println("Duracion: " + (end - start) / 1000.0 + " s");
+        System.out.println("Duracion: " + (end - start) / 1000000000.0 + " s");
     }
 
     /*****************************/
