@@ -7,7 +7,7 @@ Se trata de un 'code challenge' para obtener el algoritmo Java que sea capaz de 
 
 | #  | Time (min) |      User    |  Description                  |
 |----|------------|--------------|-------------------------------|
-| 1  | 05:12:231  | pajimene     | Línea base |
+| 1  | 05:04:980  | pajimene     | Línea base |
 
 
 ## Requisitos
@@ -88,9 +88,9 @@ A partir de ahí, eres libre de hacer todas las modificaciones que quieras, siem
 
 ## Evaluación
 
-Una vez tengas el algoritmo resuelto, envía tu código fuente (la clase implementada) para que pueda ejecutarla en local.
+Una vez tengas el algoritmo resuelto, envíame tu código fuente (la clase implementada) para que pueda ejecutarla en local.
 
-La ejecución se hará siempre en el mismo entorno controlado, un intel i7 de 6 cores y 32 Gb de RAM.
+La ejecución se hará siempre en el mismo entorno controlado, un intel i7 de 6 cores y 32 Gb de RAM, con jdk 21.0.1 oficial de Oracle. Se ejecutará varias veces y se calculará la media de tiempos.
 
 El fichero de prueba será el mismo para todas las ejecuciones y cuenta con un total de 1.066.854.351 líneas y un tamaño de 42 Gb.
 
