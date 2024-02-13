@@ -5,9 +5,11 @@ Se trata de un 'code challenge' para obtener el algoritmo Java que sea capaz de 
 
 ## Ejecuciones
 
-| #  | Time (min) |      User    |  Description                  |
-|----|------------|--------------|-------------------------------|
-| 1  | 05:12:231  | pajimene     | Línea base |
+| #  | Time (min) |      User    |  Date  | Description                  |
+|----|------------|--------------|--------|------------------------------|
+| 1  | 03:02:450  | amirzoya     | 12-feb | Uso de Files.getLines, parallel, collectors y evitar estructuras de datos |
+| 2  | 03:17:651  | pajimene     | 12-feb | Uso de Files.getLines, parallel y synchronized. Cambio a datos primitivos |
+| 3  | 05:12:231  | *            | 09-feb | Línea base |
 
 
 ## Requisitos
