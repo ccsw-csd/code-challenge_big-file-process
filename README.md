@@ -90,9 +90,9 @@ A partir de ahí, eres libre de hacer todas las modificaciones que quieras, siem
 
 ## Evaluación
 
-Una vez tengas el algoritmo resuelto, envía tu código fuente (la clase implementada) para que pueda ejecutarla en local.
+Una vez tengas el algoritmo resuelto, envía tu código fuente al correo &#112;&#97;&#98;&#108;&#111;&#46;&#106;&#105;&#109;&#101;&#110;&#101;&#122;&#45;&#109;&#97;&#114;&#116;&#105;&#110;&#101;&#122;&#64;&#99;&#97;&#112;&#103;&#101;&#109;&#105;&#110;&#105;&#46;&#99;&#111;&#109; (la clase implementada) para que pueda ejecutarla en local.
 
-La ejecución se hará siempre en el mismo entorno controlado, un intel i7 de 6 cores y 32 Gb de RAM.
+La ejecución se hará siempre en el mismo entorno controlado, un intel i7 de 6 cores y 32 Gb de RAM, con jdk 21.0.1 oficial de Oracle. Se ejecutará varias veces y se calculará la media de tiempos.
 
 El fichero de prueba será el mismo para todas las ejecuciones y cuenta con un total de 1.066.854.351 líneas y un tamaño de 42 Gb.
 
