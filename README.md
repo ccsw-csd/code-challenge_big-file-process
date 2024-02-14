@@ -79,7 +79,7 @@ java -jar generateBigData.jar
 
 - generateData.jar --> Genera un fichero "data.txt" de unas 250 mil líneas y 100 Mb de tamaño
 - generateMediumData.jar --> Genera un fichero "data.txt" de unas 40 millones de líneas y 1,5 Gb de tamaño
-- generateBigData.jar --> Tardará unos 5 minutos en generar un fichero "data.txt" de 1.000 millones de líneas y 42 Gb Mb de tamaño. **Mucho OJO**
+- generateBigData.jar --> Tardará unos 5 minutos en generar un fichero "data.txt" de 1.000 millones de líneas y 42 Gb de tamaño. **Mucho OJO con el tamaño**
 
 Escoge el fichero que más te guste para probar tu solución.
 
