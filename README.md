@@ -8,8 +8,9 @@ Se trata de un 'code challenge' para obtener el algoritmo Java que sea capaz de 
 | #  | Time (min) |    User    |    Date   | Description                |
 |----|------------|------------|-----------|----------------------------|
 | 1  | 03:02:450  | amirzoya   |   12/feb  | Uso de Files.getLines, parallel, collectors y evitar estructuras de datos |
-| 2  | 03:17:651  | pajimene   |   12/feb  | Uso de Files.getLines, parallel y synchronized. Cambio a datos primitivos |
-| 3  | 05:12:231  | *          |   09/feb  | Línea base |
+| 2  | 03:02:535  | cvelafor   |   13/feb  | Uso de Files.getLines, parallel y collectors. Ampliando el parallel. |
+| 3  | 03:17:651  | pajimene   |   12/feb  | Uso de Files.getLines, parallel y synchronized. Cambio a datos primitivos |
+| 4  | 05:12:231  | *          |   09/feb  | Línea base |
 
 
 ## Requisitos
@@ -66,21 +67,21 @@ Como ayuda al ejercicio se proveerá un algoritmo "línea base" que funciona cor
 
 ## Ejecución
 
-Para obtener un juego de datos válido deberás ejecutar el archivo .jar que acompaña este repositorio git. El comando para ejecutar es
+Para obtener un juego de datos válido tienes tres archivos .jar que acompañan a este repositorio git. El comando para ejecutar es
 
 ```
 java -jar generateData.jar
-```
-
-Esto generará un fichero "data.txt" de ejemplo, con unas 250 mil líneas y con un tamaño de 100 Mb. Ojo, que necesitas espacio en el disco para esas 100 Mb.
-
-Si necesitas un juego de datos más grande puedes utilizar el comando
-
-```
+java -jar generateMediumData.jar
 java -jar generateBigData.jar
 ```
 
-Esto generará un fichero "data.txt" de ejemplo, con unas 40 millones líneas y con un tamaño de 1,5 Gb. **Ojo, que necesitas espacio en el disco para esas 1,5 Gb**.
+**Mucho OJO** con los tamaños del fichero resultante: 
+
+- generateData.jar --> Genera un fichero "data.txt" de unas 250 mil líneas y 100 Mb de tamaño
+- generateMediumData.jar --> Genera un fichero "data.txt" de unas 40 millones de líneas y 1,5 Gb de tamaño
+- generateBigData.jar --> Tardará unos 5 minutos en generar un fichero "data.txt" de 1.000 millones de líneas y 42 Gb Mb de tamaño. **Mucho OJO**
+
+Escoge el fichero que más te guste para probar tu solución.
 
 
 Para ejecutar el algoritmo, se acompaña en este repositorio de un proyecto maven que permite la ejecución de la clase principal. Simplemente modifica la clase java del ejemplo de "línea base" o coge como base alguna de las soluciones propuestas y mejora el algoritmo.
